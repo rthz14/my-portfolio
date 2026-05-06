@@ -1,9 +1,15 @@
 export const projects = [
   {
+    name: "HydroQuest",
+    description: "A gamified water intake tracker built with React, TypeScript, Vite, and Tailwind CSS. Turn daily hydration into an RPG with XP, leveling, achievements, streak tracking, reminders, and interactive animated UI with Framer Motion.",
+    language: "TypeScript",
+    url: "https://github.com/rthz14/HydroQuest",
+    homepage: "https://hydroquest-s.vercel.app/"
+  },
+  {
     name: "crypto-market",
     description: "A clean, responsive cryptocurrency tracking application with real-time prices, dark/light mode, search, sort, and detailed coin pages",
     language: "TypeScript",
-    stars: 0,
     url: "https://github.com/rthz14/crypto-market",
     homepage: "https://rthz-crypto-market.vercel.app/"
   },
@@ -11,7 +17,6 @@ export const projects = [
     name: "rthz-s-habit-tracker",
     description: "A gamified habit tracker with XP, streaks, challenges, achievements, rewards, and dark mode. Built with React, TypeScript, and Tailwind CSS",
     language: "TypeScript",
-    stars: 0,
     url: "https://github.com/rthz14/rthz-s-habit-tracker",
     homepage: "https://rthz-habit-tracker.vercel.app/"
   }
